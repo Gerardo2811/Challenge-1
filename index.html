@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <p id="title">Encriptador de Texto, Challenge #1<span class="cursor">_</span></p>
+    </header>
+    <table>
+        <tr>
+            <td >
+                
+                    <div id="area">
+                        <h3>Codificador/Decodificador</h3><br>
+                        <textarea name="textarea" id="e1" class="encriptador" cols="30" rows="10" placeholder="Ingrese su mensaje aqui"></textarea><br>
+                        <button id="btn-des" onclick=Descencriptar()>Desencriptar</button>
+                        <button id="btn-enc" onclick=Encriptar()>Encriptar</button><br>
+                    </div>
+                    <br>
+                
+            </td>
+           
+            <td >
+                
+                    <div id="area2">
+                        <h3>Resultado:</h3><br>
+                        <textarea name="textarea" id="e2" class="encriptador" cols="30" rows="10" disabled></textarea><br>
+                        <button id="btn-copy" onclick=copiar()>Copiar resultado</button>
+                    </div>
+                    <br>
+               
+            </td>
+        </tr>
+        
+        
+        
+    </table>
+
+</body>
+<script src="./JS/index.js"></script>
+</html>
